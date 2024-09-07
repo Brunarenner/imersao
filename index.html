@@ -5,51 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-
     <title> Aula 1 </title>
 </head>
 
 <body>
     <header>
-        <h1>🐽Atletas do Palmeiras Nas OLimpiadas 🐽</h1>
+        <h1>Atletas Do Mundo</h1>
     </header>
     <main>
         <section>
-            <input type="text" placeholder="Digite o Nome do Atleta">
-            <button>Pesquisar</button>
+            <input type="text" placeholder="Digite o Nome do Atleta" id="campo-pesquisa">
+            <button onclick="pesquisar()">Pesquisar</button>
         </section>
-        <section class="resultados-pesquisa">
-            <div class="item-resultado ">
-                <h2>
-                    <a href="https://pt.wikipedia.org/wiki/Rebeca_Andrade" target="_blank">Rebeca Andrade </a>
-                </h2>
-                <p class="descricao-meta">"Rebeca Andrade, a joia da ginástica artística brasileira, tem escrito seu
-                    nome nos anais do esporte com letras de ouro. Com uma combinação única de força, flexibilidade e
-                    determinação, ela conquistou o mundo ao se tornar a maior medalhista olímpica brasileira de todos os
-                    tempos." </p>
-                <a href="https://www.instagram.com/rebecarandrade/?hl=pt-br" target="_blank">Mais Informações</a>
-            </div>
-            <div class="item-resultado ">
-                <h2>
-                    <a href="https://pt.wikipedia.org/wiki/Marta_Vieira_da_Silva" target="_blank">Marta</a>
-                </h2>
-                <p class="descricao-meta">"Marta Vieira da Silva, a Rainha, é considerada uma das maiores jogadoras de futebol de todos os tempos. Com sua habilidade e liderança, ela conquistou diversos títulos e deixou seu nome marcado na história do futebol feminino."</p>
-                <a href="https://www.instagram.com/martasvieirada/?hl=pt-br" target="_blank">Mais Informações</a>
-            </div>
-            
-            <div class="item-resultado ">
-                <h2>
-                    <a href="https://pt.wikipedia.org/wiki/Rayssa_Leal" target="_blank">Rayssa Leal</a>
-                </h2>
-                <p class="descricao-meta">"Rayssa Leal, a Fadinha, é uma skatista brasileira que, com apenas 13 anos, conquistou a medalha de prata nos Jogos Olímpicos de Tóquio 2020. Sua habilidade e carisma a tornaram um ícone do esporte."</p>
-                <a href="https://www.instagram.com/rayssalealsk8" target="_blank">Mais Informações</a>
-            </div>
-
+        <section class="resultados-pesquisa" id="resultados-pesquisa">
         </section>
     </main>
     <footer>
         <p>2024-Atletas do Brasil. Todos os Direitos Reservados</p>
-        <p>Entre em Contato pelo email:joaozinho@gmail.com</p>
+        <p>Entre em Contato pelo 📧 atletas.gov.com.br</p>
     </footer>
     <script src="dados.js"></script>
     <script src="app.js"></script>
